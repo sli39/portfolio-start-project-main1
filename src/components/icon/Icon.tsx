@@ -3,6 +3,7 @@ import React from 'react';
 import iconsSprite from '../../assets/imades/icons-sprite.svg';
 
 // чтобы сработал props.iconId нужна типизация . Чтобы в Logo.txt заработала <Icon iconId={'code'} />
+// iconId пойдет и в Skill.tsx
 type IconPropsType = {
     iconId: string,
     // иконка принимает размеры диначически см ниже значения
