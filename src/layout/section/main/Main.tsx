@@ -2,12 +2,12 @@
 import React from 'react';
 import styled from "styled-components";
 // путь к картинки сохраняем в переменную и потом использовать эту переменную в отребуте ниже <Photo src=""
-import photo from '../../../assets/imades/foto01.jpg'
+import photo from '../../../assets/images/foto01.jpg'
 import {FlexWrapper} from "../../../components/FlexWrapper";
 export const Main = () => {
     return (
         <StyledMain>
-            {/*пищем сами текст и фото позиция стала по вертикали */}
+            {/*пиШем сами текст и фото позиция стала по вертикали */}
             <FlexWrapper align={"center"} justify={"space-around"}>
                 {/*эту див мы засунули в FlexWrapper ее создали отдельно. Надписи и фото стали в 1 рад*/}
                 <div>
